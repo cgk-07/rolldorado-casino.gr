@@ -1,0 +1,127 @@
+.odometer-inside_073567c33890b103 {
+  display: flex;
+  align-items: center;
+}
+
+.odometer.odometer-auto-theme_7a73000ce6efde13,
+.odometer.odometer-theme-default_b82079a78413f018 {
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  vertical-align: auto;
+  position: relative;
+}
+
+.odometer.odometer-auto-theme_7a73000ce6efde13,
+.odometer.odometer-theme-default_b82079a78413f018 {
+  display: inline;
+}
+
+.odometer.odometer-auto-theme_7a73000ce6efde13 .odometer-digit_81237e09f8fe8f2e,
+.odometer.odometer-theme-default_b82079a78413f018 .odometer-digit_81237e09f8fe8f2e {
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  vertical-align: auto;
+  position: relative;
+}
+
+.odometer.odometer-auto-theme_7a73000ce6efde13 .odometer-digit_81237e09f8fe8f2e,
+.odometer.odometer-theme-default_b82079a78413f018 .odometer-digit_81237e09f8fe8f2e {
+  display: inline;
+}
+
+.odometer.odometer-auto-theme_7a73000ce6efde13 .odometer-digit_81237e09f8fe8f2e .odometer-digit-spacer_d5712a9d84a18fd3,
+.odometer.odometer-theme-default_b82079a78413f018 .odometer-digit_81237e09f8fe8f2e .odometer-digit-spacer_d5712a9d84a18fd3 {
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  vertical-align: auto;
+  visibility: hidden;
+}
+
+.odometer.odometer-auto-theme_7a73000ce6efde13 .odometer-digit_81237e09f8fe8f2e .odometer-digit-spacer_d5712a9d84a18fd3,
+.odometer.odometer-theme-default_b82079a78413f018 .odometer-digit_81237e09f8fe8f2e .odometer-digit-spacer_d5712a9d84a18fd3 {
+  display: flex;
+}
+
+.odometer.odometer-auto-theme_7a73000ce6efde13 .odometer-digit_81237e09f8fe8f2e .odometer-digit-inner_9cdbbfbbb839f29f,
+.odometer.odometer-theme-default_b82079a78413f018 .odometer-digit_81237e09f8fe8f2e .odometer-digit-inner_9cdbbfbbb839f29f {
+  text-align: left;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.odometer.odometer-auto-theme_7a73000ce6efde13 .odometer-digit_81237e09f8fe8f2e .odometer-ribbon_e1ea57fb193dc9b6,
+.odometer.odometer-theme-default_b82079a78413f018 .odometer-digit_81237e09f8fe8f2e .odometer-ribbon_e1ea57fb193dc9b6 {
+  display: block;
+}
+
+.odometer.odometer-auto-theme_7a73000ce6efde13 .odometer-digit_81237e09f8fe8f2e .odometer-ribbon-inner,
+.odometer.odometer-theme-default_b82079a78413f018 .odometer-digit_81237e09f8fe8f2e .odometer-ribbon-inner {
+  display: block;
+  -webkit-backface-visibility: hidden;
+}
+
+.odometer.odometer-auto-theme_7a73000ce6efde13 .odometer-digit_81237e09f8fe8f2e .odometer-value,
+.odometer.odometer-theme-default_b82079a78413f018 .odometer-digit_81237e09f8fe8f2e .odometer-value {
+  display: block;
+  -webkit-transform: translateZ(0);
+}
+
+.odometer.odometer-auto-theme_7a73000ce6efde13 .odometer-digit_81237e09f8fe8f2e .odometer-value.odometer-last-value_a569445413216be0,
+.odometer.odometer-theme-default_b82079a78413f018 .odometer-digit_81237e09f8fe8f2e .odometer-value.odometer-last-value_a569445413216be0 {
+  position: absolute;
+}
+
+.odometer.odometer-auto-theme_7a73000ce6efde13.odometer-animating-up_abddc8a301b1e218 .odometer-ribbon-inner,
+.odometer.odometer-theme-default_b82079a78413f018.odometer-animating-up_abddc8a301b1e218 .odometer-ribbon-inner {
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
+}
+
+.odometer.odometer-auto-theme_7a73000ce6efde13.odometer-animating-up_abddc8a301b1e218.odometer-animating_6422441568ff68d6 .odometer-ribbon-inner,
+.odometer.odometer-theme-default_b82079a78413f018.odometer-animating-up_abddc8a301b1e218.odometer-animating_6422441568ff68d6 .odometer-ribbon-inner {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.odometer.odometer-auto-theme_7a73000ce6efde13.odometer-animating-down_ae71b8cc4fcc73af .odometer-ribbon-inner,
+.odometer.odometer-theme-default_b82079a78413f018.odometer-animating-down_ae71b8cc4fcc73af .odometer-ribbon-inner {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.odometer.odometer-auto-theme_7a73000ce6efde13.odometer-animating-down_ae71b8cc4fcc73af.odometer-animating_6422441568ff68d6 .odometer-ribbon-inner,
+.odometer.odometer-theme-default_b82079a78413f018.odometer-animating-down_ae71b8cc4fcc73af.odometer-animating_6422441568ff68d6 .odometer-ribbon-inner {
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.odometer.odometer-auto-theme_7a73000ce6efde13 .odometer-value,
+.odometer.odometer-theme-default_b82079a78413f018 .odometer-value {
+  text-align: center;
+}
